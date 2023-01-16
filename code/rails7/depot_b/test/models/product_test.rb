@@ -19,7 +19,5 @@ class ProductTest < ActiveSupport::TestCase
     assert product.errors[:image_url].any?
   end
 
-  # test "the truth" do
-  #   assert true
-  # end
+
 end
