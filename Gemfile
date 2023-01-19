@@ -16,7 +16,7 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
-gem "jsbundling-rails"
+gem "importmap-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -25,7 +25,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
-gem "cssbundling-rails"
+gem "tailwindcss-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
